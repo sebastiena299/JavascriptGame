@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Game</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="colors">
+            <button id="red" class="btn red"></button>
+            <button id="green" class="btn green"></button>
+            <button id="blue" class="btn blue"></button>
+        </div>
+      <div class="wrapper__title">
+        <p>Nombre d'essais :</h1>
+        <span class="trials">0</span>
+      </div>
+      <div class="wrapper__cards">
+        <button class="card" onclick="onChoice(this)"></button>
+        <button class="card" onclick="onChoice(this)"></button>
+        <button class="card" onclick="onChoice(this)"></button>
+        <button class="card" onclick="onChoice(this)"></button>
+        <button class="card" onclick="onChoice(this)"></button>
+        <button class="card" onclick="onChoice(this)"></button>
+        <button class="card" onclick="onChoice(this)"></button>
+        <button class="card" onclick="onChoice(this)"></button>
+        <button class="card" onclick="onChoice(this)"></button>
+        <button class="card" onclick="onChoice(this)"></button>
+        <button class="card" onclick="onChoice(this)"></button>
+        <button class="card" onclick="onChoice(this)"></button>
+      </div>
+    </div>
+    <div class="congratulation">
+        <div>BRAVO 👌</div>
+        <div class="timer">Vous avez mis <span class="time"></span>minute(s) 🕐</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
